@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <gradient-->
+<!--        android:centerColor="#273333"-->
+<!--        android:endColor="@color/mainBackground2"-->
+<!--        android:startColor="#364E4E"-->
+<!--        android:gradientRadius="135"-->
+<!--        android:type="radial"-->
+<!--        />-->
+
+    <gradient
+        android:startColor="@color/mainBackground2"
+        android:centerColor="#141616"
+        android:endColor="#252928"
+        android:angle="270"
+        />
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/solver_group_"/>
+    <corners
+        android:radius="30dp"
+        />
+
+
+<!--<solid-->
+<!--    android:color="@color/mainBackground2"/>-->
+<!--    <stroke-->
+<!--        android:color="@color/solver_group_"-->
+<!--        android:width="2dp"/>-->
+
+<!--    <corners android:radius="30dp" />-->
+
+
+
+<!--    <gradient-->
+<!--        android:centerColor="#202020"   for stroke #026868-->
+<!--        android:endColor="#0E0E0E"-->
+<!--        android:startColor="#1E1E1E"-->
+<!--        android:gradientRadius="130"-->
+<!--        android:type="radial"-->
+<!--        />-->
+
+<!--    <stroke-->
+<!--        android:color="#131313"-->
+<!--        android:width="2dp"/>-->
+
+<!--    <corners android:radius="30dp" />-->
+</shape>

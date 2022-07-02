@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="background_image_for_the_main_activity">Background image for the main activity</string>
+    <string name="sudoku">Sudoku</string>
+    <string name="this_is_used_for_view_layout">This is used for view layout</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="thirteen">13</string>
+    <string name="fourteen">14</string>
+    <string name="fifteen">15</string>
+    <string name="x">X</string>
+    <string name="clear">Clear</string>
+    <string name="solve">Solve</string>
+    <string name="check">Check</string>
+    <string name="sudoku_solver">Sudoku Solver</string>
+    <string name="_9x9">9 x 9</string>
+    <string name="_12x12">12 x 12</string>
+    <string name="_15x15">15 x 15</string>
+    <string name="_9x9_solver">9x9 Solver</string>
+    <string name="_12x12_solver">12x12 Solver</string>
+    <string name="_15x15_solver">15x15 Solver</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+
+    <!--    these are for game level-->
+
+    <string name="about_data">Hi, I\'m Matrix.\n\nThe app Sudoku Solver is designed to solve sudoku puzzles.\n\nIt can solve 9x9, 12x12, 15x15 puzzles.\n\nFor complex puzzles, it may take long time.\n\n\nSerial number: 08\nDate of creation: 10 February 2022\nContact us: matrixinventions@gmail.com</string>
+
+</resources>

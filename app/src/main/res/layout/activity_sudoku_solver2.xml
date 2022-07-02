@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground1"
+    android:padding="20dp"
+    tools:context=".activities.SudokuSolver2Activity">
+
+    <TextView
+        android:id="@+id/solverHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/_12x12_solver"
+        android:textColor="@color/sudokuTextColor"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        custom:layout_constraintBottom_toTopOf="@+id/sudokuBoard2"
+        custom:layout_constraintEnd_toEndOf="@+id/sudokuBoard2"
+        custom:layout_constraintHorizontal_bias="0.5"
+        custom:layout_constraintStart_toStartOf="@+id/sudokuBoard2"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.23000002" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:background="#617E91"
+        custom:layout_constraintBottom_toTopOf="@+id/sudokuBoard2"
+        custom:layout_constraintEnd_toEndOf="@+id/solverHeading"
+        custom:layout_constraintStart_toStartOf="@+id/solverHeading"
+        custom:layout_constraintTop_toBottomOf="@+id/solverHeading"
+        custom:layout_constraintVertical_bias="0.22000003" />
+
+    <com.matrix_maeny.sudoku.javaclasses.SudokuBoard2
+        android:id="@+id/sudokuBoard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:bordersColor="@color/colorTeal"
+        custom:cellFillColor="@color/cellFillColor1"
+        custom:letterColor="@color/sudokuTextColor"
+        custom:letterSolvedColor="@color/solvedColor2"
+        custom:cellHighlightedColor="@color/clearButtonFillColor"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.6"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="@+id/sudokuBoard2"
+        custom:layout_constraintHorizontal_bias="0.5"
+        custom:layout_constraintStart_toStartOf="@+id/sudokuBoard2"
+        custom:layout_constraintTop_toBottomOf="@+id/sudokuBoard2"
+        custom:layout_constraintVertical_bias="0.25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn12"
+                android:text="@string/one"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn22"
+                android:text="@string/two"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn32"
+                android:text="@string/three"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn42"
+                android:text="@string/four"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn52"
+                android:text="@string/five"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn62"
+                android:text="@string/six"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn72"
+                android:text="@string/seven"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn82"
+                android:text="@string/eight"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn92"
+                android:text="@string/nine"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn102"
+                android:text="@string/ten"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn112"
+                android:text="@string/eleven"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="Btn122"
+                android:text="@string/twelve"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnClearBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:onClick="BtnX2"
+                android:text="@string/x"
+                android:textColor="#A8A8A8"
+                android:textSize="20sp"
+                tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/solve_clear_Btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_button_background"
+        android:onClick="BtnSolve2"
+        android:text="@string/solve"
+        android:textColor="#A8A8A8"
+        android:textSize="16sp"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        custom:layout_constraintHorizontal_bias="0.5"
+        custom:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        custom:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        custom:layout_constraintVertical_bias="0.8"
+        tools:ignore="UsingOnClickInXml,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

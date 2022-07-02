@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2C2C2C</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbarBackground">#202020</color>
+    <color name="splashTextColor">#1D1D1D</color>
+    <color name="textColor">#F3F3F3</color>
+    <color name="statusBarColor">#0C0C0C</color>
+    <color name="colorTeal">#517C7A</color>
+    <color name="clearButtonFillColor">#3B2A3C43</color>
+    <color name="sudokuTextColor">#A8A8A8</color>
+    <color name="cellFillColor1">#B3EF930A</color>
+    <color name="solvedColor">#CC238032</color>
+    <color name="solvedColor2">#CC1E6A2A</color>
+    <color name="mainBackground1">#121212</color>
+    <color name="mainBackground2">#0A0A0A</color>
+    <color name="solver_group_">#648585</color>
+</resources>

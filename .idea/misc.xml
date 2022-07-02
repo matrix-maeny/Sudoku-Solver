@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/button_background.xml" value="0.243" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/clear_button_background.xml" value="0.243" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/game_level_background.xml" value="0.226" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.226" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.226" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/main_view_model_background.xml" value="0.236" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/solver_group_background.xml" value="0.2" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/sound_switch_background.xml" value="0.212" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/splash_drawable.xml" value="0.219" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/splash_drawable_1.xml" value="0.219" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/text_background.xml" value="0.236" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/drawable/toolbar_background.xml" value="0.236" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_game_level.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_game_play.xml" value="0.2" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_game_play1.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_solver_group.xml" value="0.25" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_sub_game_level.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_sudoku_solver.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_sudoku_solver2.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/activity_sudoku_solver3.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/game_level_view_model.xml" value="0.4" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/game_view_model.xml" value="0.4" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/main_view_model.xml" value="0.4" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/settings_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/layout/solver_group_model.xml" value="0.264" />
+        <entry key="..\:/Users/Matrix_maeny/AndroidStudioProjects/Sudoku/app/src/main/res/menu/main_menu.xml" value="0.20521590423257802" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
